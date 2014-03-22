@@ -63,7 +63,7 @@
         }
     });
 
-    sp.service('$spServices', ['$spConstants', '$spUtilityServices', function ($spConstants, $spUtilityServices) {
+    sp.service('$spService', ['$spConstants', '$spUtilityServices', function ($spConstants, $spUtilityServices) {
         var self = this;
         self.lists = {
             outurl: $spConstants.appWebUrl + "/_api/SP.AppContextSite(@TargetSite)/web/lists?" +
