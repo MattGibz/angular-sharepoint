@@ -1,7 +1,7 @@
 angular-sharepoint
 ==================
 This project is a framework to assist in building [AngularJS](http://angularjs.org/) SharePoint applications.
-You can use it to quickly interact with host web or app web lists. The framework leverages the SharePoint REST API and provides a clean syntax for querying SharePoint data.
+You can use it to quickly interact with host web or app web lists. The framework leverages the SharePoint REST API and provides a chainable syntax for querying SharePoint data.
 
 #Setup
 ####Include the module:
